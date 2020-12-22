@@ -17,7 +17,9 @@ class Header extends Component {
                  <Link to='/' style={{padding:'5px'}}>
                     Home
                 </Link>
-
+                <Link to='/privateroute' style={{padding:'5px'}}>
+                    Private Route
+                </Link>
                 {
                 this.state.nums.map( 
                                     num =>
