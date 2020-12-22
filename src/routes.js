@@ -4,7 +4,7 @@ import Component1 from './component/functional/component1';
 import Container1 from './component/container/container1';
 import Header from './component/container/header';
 
-import {Router, Route, Switch} from 'react-router';
+import {Router, Switch, Route} from 'react-router';
 import history from './utils/history';
 
 class Routes extends Component {

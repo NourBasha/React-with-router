@@ -18,11 +18,17 @@ class Header extends Component {
                     Home
                 </Link>
 
-                {this.state.nums.map( num =>
-                <Link key={num.id} to={{pathname:'/component/'+num.id}} style={{padding:'5px'}}>
-                    component {num.id}
-                </Link>
-                )}
+                {
+                this.state.nums.map( 
+                                    num =>
+                                            <Link    key={num.id}
+                                                     to={{pathname:'/component/'+num.id}}
+                                                     style={{padding:'5px'}}>
+                                                     component {num.id}
+                                            </Link>
+                                  )
+                
+                }
                
 
             </div>
