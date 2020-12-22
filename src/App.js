@@ -7,7 +7,6 @@ class App extends Component {
     return (
       <div >
         React
-        {console.log("inside app component")}
         <Routes />
       </div>
     )
